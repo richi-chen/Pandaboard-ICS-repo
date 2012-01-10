@@ -8,8 +8,7 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="git://github.com/" 
-           review="review.cyanogenmod.com" />
+           fetch="git://github.com/" />
 
   <remote  name="linaro-android"
            fetch="git://android.git.linaro.org/"
@@ -88,7 +87,8 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" />
+  <!-- <project path="device/ti/panda" name="device/ti/panda" /> -->
+  <project path="device/ti/panda" name="richi-chen/device-ti-panda" remote="github" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
