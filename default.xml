@@ -35,8 +35,8 @@
 <!-- TI specific addons -->
 
 <!-- OMAP4 related trees -->
-  <project path="device/ti/common-open" name="device/ti/common-open"
-           revision="ics-mr1" remote="omap-mirror" />
+  <!-- <project path="device/ti/common-open" name="device/ti/common-open"
+           revision="ics-mr1" remote="omap-mirror" /> -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
            revision="ics-mr1" remote="omap-mirror" />
 
