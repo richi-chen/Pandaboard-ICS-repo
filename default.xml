@@ -32,7 +32,8 @@
 
 
 	<!--omappedia panda kernel-->
-  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+  <!--<project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />-->
+  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-4470" />
 
   <!-- Linaro Power WG -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" />
