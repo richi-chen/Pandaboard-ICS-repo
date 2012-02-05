@@ -28,9 +28,9 @@
            fetch="http://git.android-x86.org/" />
 
  <!--aosp panda kernel-->
-  <!-- <project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" /> -->
+  <project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" />
   <!-- <project path="kernel" name="kernel/omap" revision="linaro-android-omap-panda-3.0" remote="linaro-android" /> -->
-  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" remote="omap-mirror" />
+  <!-- <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" remote="omap-mirror" /> -->
 
 <!-- TI specific addons -->
 
@@ -59,6 +59,8 @@
 
   <!-- Linaro gator -->
   <!-- <project name="arm/ds5/gator" path="external/gator" remote="linaro-other" revision="android" /> -->
+  <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" remote="linaro-android" />
+  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
 
   <!-- from android-x86 -->
   <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
@@ -87,8 +89,8 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <!-- <project path="device/ti/panda" name="device/ti/panda" /> -->
-  <project path="device/ti/panda" name="richi-chen/device-ti-panda" remote="github" revision="master" />
+  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -185,6 +187,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
