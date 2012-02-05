@@ -32,8 +32,8 @@
 
 
 	<!--omappedia panda kernel-->
-  <!--<project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />-->
-  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-4470" />
+  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+  <!--<project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-4470" />-->
 
   <!-- Linaro Power WG -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" />
@@ -312,10 +312,11 @@
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
 
-<!-- OMAP3 related trees - removed for now
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr0" />
+<!-- OMAP3 related trees -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
   <project path="device/ti/zoom2" name="device/ti/zoom2"
-           revision="ics-mr0" />
+           revision="ics-mr1" />
+<!-- OMAP3 related trees - removed for now
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
            revision="memmgr_1.0" />
   <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
