@@ -45,14 +45,14 @@
            revision="ics-mr1" remote="omap-mirror" />
   <project path="external/crda" name="platform/external/crda" revision="p-ics-mr1" remote="omap-mirror" />
 
-  <project path="device/ti/support-tools" name="repo/support-tools"
-           revision="master" remote="omap-mirror" />
+  <!-- <project path="device/ti/support-tools" name="repo/support-tools"
+           revision="master" remote="omap-mirror" /> -->
   <!-- <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
            revision="master" remote="omap-mirror" /> -->
-  <project path="external/bltsville" name="platform/external/bltsville" revision="master" remote="omap-mirror"/>
+  <!-- <project path="external/bltsville" name="platform/external/bltsville" revision="master" remote="omap-mirror"/> -->
 
 <!-- TI add on APPS -->
-  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" remote="omap-mirror" />
+  <!-- <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" remote="omap-mirror" /> -->
 
   <!-- Linaro Power WG -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" />
@@ -62,8 +62,6 @@
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" remote="linaro-android" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
 
-  <!-- from android-x86 -->
-  <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
