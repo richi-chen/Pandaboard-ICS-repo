@@ -30,10 +30,18 @@
   <remote  name="x86"
            fetch="http://git.android-x86.org/" />
 
+  <remote  name="rowboat"
+           fetch="git://gitorious.org/rowboat"
+           review="" />
 
 	<!--omappedia panda kernel-->
-  <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+   <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
   <!--<project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-4470" />-->
+
+	<!--rowboat beagle kernel-->
+  <project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />
+	<!--rowboat sgx ddk-->
+  <project path="hardware/ti/sgx" name="hardware-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" remote="rowboat" />
 
   <!-- Linaro Power WG -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" />
@@ -42,6 +50,17 @@
   <!-- <project name="arm/ds5/gator" path="external/gator" remote="linaro-other" revision="android" /> -->
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" remote="linaro-android" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
+  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.3" remote="linaro-android" />
+  <project path="external/powertop" name="platform/external/powertop" revision="linaro" remote="linaro-android" />
+  <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" remote="linaro-android" />
+  <project path="external/libnl" name="platform/external/libnl" revision="linaro" remote="linaro-android" />
+
+  <!-- android-x86.org -->
+  <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
+  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="ics-x86" />
+  <project path="packages/apps/Superuser" name="platform/packages/apps/Superuser" remote="x86" revision="ics-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
+
 
 
   <project path="build" name="platform/build">
@@ -70,6 +89,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="omapzoom" />
+  <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -315,6 +335,7 @@
 
 <!-- OMAP3 related trees -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
+  <!-- <project path="hardware/ti/omap3" name="hardware-ti-omap3" revision="rowboat-ics" remote="rowboat" /> -->
   <project path="device/ti/zoom2" name="device/ti/zoom2"
            revision="ics-mr1" />
 <!-- OMAP3 related trees - removed for now
