@@ -50,7 +50,6 @@
   <!-- <project name="arm/ds5/gator" path="external/gator" remote="linaro-other" revision="android" /> -->
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" remote="linaro-android" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
-  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.3" remote="linaro-android" />
   <project path="external/powertop" name="platform/external/powertop" revision="linaro" remote="linaro-android" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" remote="linaro-android" />
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" remote="linaro-android" />
