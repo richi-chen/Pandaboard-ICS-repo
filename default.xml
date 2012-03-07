@@ -44,7 +44,8 @@
   <project path="hardware/ti/sgx" name="hardware-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" remote="rowboat" />
 
   <!-- Linaro Power WG -->
-  <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" />
+  <project path="packages/apps/0xbench" name="rogeryi/0xbench_2d_hw" revision="master" remote="github" />
+  <!-- <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" remote="linaro-android" /> -->
 
   <!-- Linaro -->
   <!-- <project name="arm/ds5/gator" path="external/gator" remote="linaro-other" revision="android" /> -->
@@ -306,6 +307,18 @@
 -->
 
 
+<!-- OMAP3 related trees -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
+  <!-- <project path="hardware/ti/omap3" name="hardware-ti-omap3" revision="rowboat-ics" remote="rowboat" /> -->
+  <project path="device/ti/zoom2" name="device/ti/zoom2"
+           revision="ics-mr1" />
+<!-- OMAP3 related trees - removed for now
+  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
+           revision="memmgr_1.0" />
+  <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
+           revision="syslink-2.0-m1" />
+-->
+
 <!-- OMAP4 related trees -->
   <project path="device/ti/blaze" name="device/ti/blaze"
            revision="ics-mr1" />
@@ -315,6 +328,10 @@
            revision="ics-mr1" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
            revision="ics-mr1" />
+
+<!-- OMAP5 related trees -->
+  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
+          revision="ics-mr1" />
 
 <!-- Connectivity -->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -330,17 +347,5 @@
 
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
-
-<!-- OMAP3 related trees -->
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
-  <!-- <project path="hardware/ti/omap3" name="hardware-ti-omap3" revision="rowboat-ics" remote="rowboat" /> -->
-  <project path="device/ti/zoom2" name="device/ti/zoom2"
-           revision="ics-mr1" />
-<!-- OMAP3 related trees - removed for now
-  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
-           revision="memmgr_1.0" />
-  <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
-           revision="syslink-2.0-m1" />
--->
 
 </manifest>
