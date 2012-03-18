@@ -334,7 +334,7 @@
           revision="ics-mr1" />
 
 <!-- Connectivity -->
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1-release" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
   <project path="external/crda" name="platform/external/crda" />
@@ -347,5 +347,9 @@
 
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
+
+<!-- TI x-loader, u-boot -->
+  <project path="x-loader" name="repo/x-loader" revision="omap4_dev" />
+  <project path="u-boot" name="repo/u-boot" revision="omap4_dev" />
 
 </manifest>
