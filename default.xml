@@ -34,9 +34,12 @@
            fetch="git://gitorious.org/rowboat"
            review="" />
 
+
+	<!--richi common for apps, firmwares-->
+  <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
+
 	<!--omappedia panda kernel-->
    <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
-  <!--<project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-4470" />-->
 
 	<!--rowboat beagle kernel-->
   <project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />
@@ -56,7 +59,6 @@
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" remote="linaro-android" />
 
   <!-- android-x86.org -->
-  <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="ics-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
 
@@ -88,7 +90,6 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="omapzoom" />
-  <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
