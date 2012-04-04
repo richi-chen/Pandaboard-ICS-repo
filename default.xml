@@ -39,7 +39,7 @@
   <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
 
 	<!--omappedia panda kernel-->
-   <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+   <project path="kernel" name="kernel/omap" revision="a0feebc4298e5365972dc3da537f7065ac535256" />
 
 	<!--rowboat beagle kernel-->
   <project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />
@@ -340,6 +340,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
   <project path="external/crda" name="platform/external/crda" />
+  <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
