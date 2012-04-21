@@ -39,12 +39,13 @@
   <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
 
 	<!--omappedia panda kernel-->
-   <project path="kernel" name="kernel/omap" revision="a0feebc4298e5365972dc3da537f7065ac535256" />
+   <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+   <!--<project path="kernel" name="kernel/omap" revision="a0feebc4298e5365972dc3da537f7065ac535256" />-->
 
 	<!--rowboat beagle kernel-->
-  <project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />
+  <!--<project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />-->
 	<!--rowboat sgx ddk-->
-  <project path="hardware/ti/sgx" name="hardware-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" remote="rowboat" />
+  <!--<project path="hardware/ti/sgx" name="hardware-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" remote="rowboat" />-->
 
   <!-- Linaro Power WG -->
   <project path="packages/apps/0xbench" name="rogeryi/0xbench_2d_hw" revision="master" remote="github" />
@@ -342,6 +343,12 @@
   <project path="external/crda" name="platform/external/crda" />
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
+<!-- BlueTI trees -->
+  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" revision="ics-mr1"/>
+  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" revision="ics-mr1"/>
+  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" revision="ics-mr1"/>
+
+
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
@@ -351,8 +358,10 @@
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
 
-<!-- TI x-loader, u-boot -->
+<!-- TI x-loader, u-boot, sysbios -->
   <project path="x-loader" name="repo/x-loader" revision="omap4_dev" />
   <project path="u-boot" name="repo/u-boot" revision="omap4_dev" />
+  <project path="sysbios" name="repo/sysbios-rpmsg" revision="rpmsg-1.10" />
+  <!--<project path="sysbios" name="repo/sysbios-rpmsg" revision="master" />-->
 
 </manifest>
