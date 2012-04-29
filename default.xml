@@ -208,7 +208,8 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" /> -->
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="e6eae7798e9bb5fe26409fd905061fa7525bc410" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -339,6 +340,7 @@
 
 <!-- Connectivity -->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1-release" />
+  <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1" /> -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
   <project path="external/crda" name="platform/external/crda" />
