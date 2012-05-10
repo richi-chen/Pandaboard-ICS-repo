@@ -37,10 +37,11 @@
 
 	<!--richi common for apps, firmwares-->
   <project path="device/richi-common" name="richi-chen/richi-common" remote="github" revision="master" />
+	<!--richi-panda device repo -->
+  <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="omapzoom" />
 
 	<!--omappedia panda kernel-->
    <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
-   <!--<project path="kernel" name="kernel/omap" revision="a0feebc4298e5365972dc3da537f7065ac535256" />-->
 
 	<!--rowboat beagle kernel-->
   <!--<project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />-->
@@ -92,7 +93,6 @@
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
-  <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="omapzoom" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -339,17 +339,17 @@
           revision="ics-mr1" />
 
 <!-- Connectivity -->
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1-release" />
-  <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1" /> -->
+  <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1-release" /> -->
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
   <project path="external/crda" name="platform/external/crda" />
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
 <!-- BlueTI trees -->
-  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" revision="ics-mr1"/>
-  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" revision="ics-mr1"/>
-  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" revision="ics-mr1"/>
+  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" />
+  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" />
+  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" />
 
 
   <project path="device/ti/support-tools" name="repo/support-tools"
@@ -364,7 +364,8 @@
 <!-- TI x-loader, u-boot, sysbios -->
   <project path="x-loader" name="repo/x-loader" revision="omap4_dev" />
   <project path="u-boot" name="repo/u-boot" revision="omap4_dev" />
-  <project path="sysbios" name="repo/sysbios-rpmsg" revision="rpmsg-1.10" />
+  <project path="sysbios" name="repo/sysbios-rpmsg" revision="rpmsg-1.20" />
+  <!--<project path="sysbios" name="repo/sysbios-rpmsg" revision="rpmsg-1.10" />-->
   <!--<project path="sysbios" name="repo/sysbios-rpmsg" revision="master" />-->
 
 </manifest>
