@@ -56,7 +56,7 @@
   <!-- <project name="arm/ds5/gator" path="external/gator" remote="linaro-other" revision="android" /> -->
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" remote="linaro-android" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
-  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.4" remote="linaro-android" />
+  <!-- <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.4" remote="linaro-android" /> -->
   <project path="external/powertop" name="platform/external/powertop" revision="linaro" remote="linaro-android" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" remote="linaro-android" />
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" remote="linaro-android" />
@@ -71,7 +71,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <!-- <project path="bionic" name="platform/bionic" /> -->
+  <project path="bionic" name="platform/bionic" revision="1158450154a5616046380d5652afb94897107ce8" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -148,7 +149,8 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <!-- <project path="external/kernel-headers" name="platform/external/kernel-headers" /> -->
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="62d1f3d527f7e7a74d79c9d7b76225084ad2a894" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
@@ -208,8 +210,8 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" /> -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="e6eae7798e9bb5fe26409fd905061fa7525bc410" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="e6eae7798e9bb5fe26409fd905061fa7525bc410" /> -->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -339,7 +341,6 @@
           revision="ics-mr1" />
 
 <!-- Connectivity -->
-  <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1-release" /> -->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="p-ics-mr1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
@@ -354,8 +355,10 @@
 
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
+  <!-- <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
+           revision="master" /> -->
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="master" />
+           revision="4b779cd9d4c69a37cee42f4dd39da867c33a9115" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master"/>
 
 <!-- TI add on APPS -->
