@@ -71,8 +71,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <!-- <project path="bionic" name="platform/bionic" /> -->
-  <project path="bionic" name="platform/bionic" revision="1158450154a5616046380d5652afb94897107ce8" />
+  <project path="bionic" name="platform/bionic" />
+  <!-- <project path="bionic" name="platform/bionic" revision="1158450154a5616046380d5652afb94897107ce8" /> -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -149,8 +149,8 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <!-- <project path="external/kernel-headers" name="platform/external/kernel-headers" /> -->
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="62d1f3d527f7e7a74d79c9d7b76225084ad2a894" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <!-- <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="62d1f3d527f7e7a74d79c9d7b76225084ad2a894" /> -->
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
