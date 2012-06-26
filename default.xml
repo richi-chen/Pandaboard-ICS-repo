@@ -41,7 +41,7 @@
   <project path="device/ti/richi-panda" name="richi-chen/device-ti-panda" remote="github" revision="omapzoom" />
 
 	<!--omappedia panda kernel-->
-   <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0" />
+   <project path="kernel" name="kernel/omap" revision="p-android-omap-3.0-dev" />
 
 	<!--rowboat beagle kernel-->
   <!--<project path="kernel.beagle" name="kernel" revision="rowboat-ics-kernel-2.6.37" remote="rowboat" />-->
@@ -72,7 +72,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
-  <!-- <project path="bionic" name="platform/bionic" revision="1158450154a5616046380d5652afb94897107ce8" /> -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -150,7 +149,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <!-- <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="62d1f3d527f7e7a74d79c9d7b76225084ad2a894" /> -->
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
@@ -211,7 +209,6 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
-  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="e6eae7798e9bb5fe26409fd905061fa7525bc410" /> -->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -355,10 +352,8 @@
 
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
-  <!-- <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="master" /> -->
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="4b779cd9d4c69a37cee42f4dd39da867c33a9115" />
+           revision="master" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master"/>
 
 <!-- TI add on APPS -->
